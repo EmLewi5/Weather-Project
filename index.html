@@ -16,7 +16,8 @@
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
-      <div class="Weather-app">
+      <div class="weather-app">
+        <div class="overview">
       <h1>Canton</h1>
       <ul>
         <li>
@@ -26,10 +27,13 @@
           Clear
         </li>
       </ul>
+      </div>
       <div class="row">
         <div class="col-6">
+          <div class="clearfix">
           <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-          alt="Clear"/>
+          alt="Clear"
+          class="float-left"/>
           77°F | °C
         </div>
         <div class="col-6">
@@ -46,14 +50,15 @@
           </ul>
         </div>
       </div>
+     
     </div>
-    <small>
+
+      
+    </div>
+  <small>
       <a href="https://github.com/EmLewi5/Weather-Project">
     Open-source code</a> by Emily Lewis</small>
 </small>
-
-    </div>
-  
     <script src="src/index.js"></script>
   </body>
 </html>
