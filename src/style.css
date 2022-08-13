@@ -64,10 +64,10 @@ li::first-letter {
 }
 
 .weather-temperature .active {
-color: rgb(33, 33, 33);
-cursor: default;
+  color: rgb(33, 33, 33);
+  cursor: default;
 }
 
 .weather-temperature .active {
-text-decoration: none;
+  text-decoration: none;
 }
