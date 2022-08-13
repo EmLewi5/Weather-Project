@@ -51,7 +51,7 @@ li::first-letter {
 }
 
 .weather-temperature strong {
-  color: green;
+  color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -61,4 +61,13 @@ li::first-letter {
   position: relative;
   font-size: 16px;
   top: -32px;
+}
+
+.weather-temperature .active {
+color: rgb(33, 33, 33);
+cursor: default;
+}
+
+.weather-temperature .active {
+text-decoration: none;
 }
